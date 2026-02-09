@@ -1,0 +1,33 @@
+# Secrets - NEVER commit API keys
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test data (generated, not needed in deployment)
+test_data/
+
+# Temporary
+*.tmp
+*.log
