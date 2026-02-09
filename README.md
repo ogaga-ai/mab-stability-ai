@@ -10,11 +10,12 @@ Built for the [Gemini 3 Hackathon 2026](https://gemini3.devpost.com) | Powered b
 
 ## Inspiration
 
-In 2020, COVID-19 wiped out approximately 7.1 million people worldwide. Pharmaceutical companies raced to develop vaccines, but for patients with weaker immune systems, vaccines alone weren't enough — their bodies couldn't generate antibodies fast enough. Researchers turned to **monoclonal antibodies (mAbs)** — laboratory-designed antibodies that could immediately protect individuals upon administration. Eli Lilly's bamlanivimab and Genentech's Actemra were among the first mAb-based treatments deployed in the US.
+About 3 years ago, I started a PhD in Chemical Engineering with a dream to change the world. This decision was driven by a life-changing experience with COVID in 2020.
+When COVID hit, the world became sick with a disease that wiped out about 7.1 million people, of which about 17.1% of those deaths happened in the US alone. The experience was overwhelming and the way forward — unclear.
+Pharmaceutical companies raced against time to develop solutions. Pfizer and BioNTech developed Comirnaty, one of the first mRNA drugs authorized by the FDA for use in 2020, along with Paxlovid, an oral antiviral for patients already affected. These drugs teach your body to generate its own antibodies. But it wasn't enough — patients with weaker immune systems often died before their bodies got the chance to fight back.
+Research scientist knew this wasn't sustainable, so they developed monoclonal antibodies (mAbs) that could immediately protect individuals upon administration. Eli Lilly developed bamlanivimab, the first mAb product used in the US. Genentech repurposed Actemra, originally an arthritis drug, to treat severely hospitalized COVID patients. In both cases, mAbs were the key to better outcomes but it came with its own challenges.
 
-This experience inspired me to pursue a PhD in Chemical Engineering, focused on understanding **why mAbs lose their shape during development and delivery** — a problem called conformational instability that reduces drug efficacy. During my research, I spent long hours manually analyzing formulation parameters, interpreting NMR diffusion data, and trying to predict stability outcomes. It was an iterative process that could have been solved using AI, but I didn't have a way to do it efficiently — until now.
-
-mAb StabilityAI combines my PhD research with Google Gemini 3 Pro to automate and accelerate this entire workflow.
+mAbs are proteins, and they often change shape during development and delivery. This conformational change reduces drug efficacy — sometimes rendering the treatment useless. In the early phase of my research, I spent long hours trying to understand why mAbs change shape and how to stabilize them. It was an iterative, manual process that could have been solved using AI, but I didn't have a way to do it efficiently — until today.
 
 ## What It Does
 
@@ -28,7 +29,7 @@ mAb StabilityAI is a five-module scientific platform:
 
 4. **Literature & Research** — Query Gemini 3 Pro's scientific knowledge for structured literature reviews on mAb stability topics.
 
-5. **HIPE Experimental Pipeline** — The core engine. Upload NMR DOSY diffusion data, Circular Dichroism spectra, or microscopy observations. The app automatically fits mathematical models (mono-exponential or bi-exponential, selected via AIC), generates interactive visualizations, and uses Gemini 3 Pro to interpret results and translate HIPE findings into mAb stability predictions.
+5. **HIPE Experimental Pipeline** — The core engine of my research. Upload NMR DOSY diffusion data, Circular Dichroism spectra, or microscopy observations. The app automatically fits mathematical models (mono-exponential or bi-exponential, selected via AIC), generates interactive visualizations, and uses Gemini 3 Pro to interpret results and translate HIPE findings into mAb stability predictions.
 
 ## The Science: Why HIPEs?
 
