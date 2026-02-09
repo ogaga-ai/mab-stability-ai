@@ -25,9 +25,6 @@ env/
 Thumbs.db
 desktop.ini
 
-# Test data (generated, not needed in deployment)
-test_data/
-
 # Temporary
 *.tmp
 *.log
