@@ -29,4 +29,4 @@ jobs:
         run: python -m py_compile app.py gemini_client.py hipe_analysis.py prompts.py
 
       - name: Validate HIPE analysis module
-        run: python -c "from hipe_analysis import fit_decay_model; print('hipe_analysis OK')"
+        run: python -c "from hipe_analysis import auto_fit_dosy, analyze_cd_spectrum; print('hipe_analysis OK')"
